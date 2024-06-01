@@ -14,7 +14,7 @@ services:
   app-timesheet:
     depends_on:
       - mysqldb
-    image: mou
+    image: llou24/timesheet-devops:1.0.0
     restart: on-failure
     ports:
       - 8082:8082
